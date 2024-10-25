@@ -1,0 +1,42 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore virtual environment
+venv/
+.env/
+
+# Ignore dependency files
+*.egg-info/
+*.egg
+*.whl
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+
+# Ignore environment configuration files
+.env
+.env.local
+
+# Ignore node modules (if any JavaScript is used)
+node_modules/
+
+data
